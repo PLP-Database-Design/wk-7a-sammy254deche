@@ -12,3 +12,16 @@ VALUES
     (102, 'Jane Smith', 'Keyboard'),
     (102, 'Jane Smith', 'Mouse'),
     (103, 'Emily Clark', 'Phone');
+
+
+
+CREATE TABLE Customers (
+    OrderID INT PRIMARY KEY,
+    CustomerName VARCHAR(255)
+);
+
+INSERT INTO Customers (OrderID, CustomerName)
+VALUES 
+    (101, 'John Doe'),
+    (102, 'Jane Smith'),
+    (103, 'Emily Clark');
